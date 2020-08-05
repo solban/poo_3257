@@ -13,7 +13,7 @@ public class Sesion_3_agosto {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       
         Teclado objTeclado1= new Teclado();
         objTeclado1.teclear(10);
         Teclado t2=new Teclado();

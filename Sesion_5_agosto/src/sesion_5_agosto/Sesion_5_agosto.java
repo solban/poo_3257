@@ -18,12 +18,22 @@ public class Sesion_5_agosto {
      */
     public static void main(String[] args) {
         Automovil miCarro = new Automovil();
-        miCarro.marca="VW";
-        miCarro.subMarca="Golf";
-        miCarro.modelo = 1990;
-        miCarro.color="Gris";
-        float x = miCarro.avanzar(100);
+        //miCarro.marca="VW";
+        //miCarro.subMarca="Golf";
+        //miCarro.modelo = 1990;
+        //miCarro.color="Gris";
+        miCarro.setModelo(1990);
+        float x = miCarro.avanzar(1000);
         System.out.println("Avanzados="+ x);
-    }
+        
+        Automovil miCarroDos=new Automovil();
+        //miCarroDos.marca="Ford";
+        //miCarroDos.submarca="Mustang";
+        System.out.println("Avanzados="+miCarroDos.avanzar(500));
+        
+        
+        
+        System.out.println(miCarro.toString());
+                }
     
 }

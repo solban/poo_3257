@@ -5,6 +5,8 @@
  */
 package tarea.uml;
 
+import poo.ico.fes.Smartphone;
+
 /**
  *
  * @author Solba
@@ -15,7 +17,7 @@ public class TareaUML {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Smartphone miSmartphone = new Smartphone();
     }
     
 }

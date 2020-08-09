@@ -14,7 +14,7 @@ public class Automovil {
     private String subMarca;
     private int modelo;
     private String color;
-    //los comporatamientos
+   
     //Metodos de Acceso
     public void setColor(String col){
         this.color=col;
@@ -48,7 +48,7 @@ public class Automovil {
     public int getModelo(){
         return this.modelo;
     }
-    
+    //Comportamientos
     public void encender(){
         System.out.println("Encender auto");
     }  

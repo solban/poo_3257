@@ -16,12 +16,34 @@ public class Automovil {
     private String color;
     //los comporatamientos
     //Metodos de Acceso
+    public void setColor(String col){
+        this.color=col;
+    }
+    public void setSubMarca(String sub){
+        this.subMarca=sub;
+                
+    }
+    public void setMarca(String mar){
+        
+        this.marca=mar;
+    }
     public void setModelo(int mod){
         if(mod>=1914&&mod <=2020){
             this.modelo=mod;
         }else{
             System.out.println("Eses modelo esta fuera de rango");
         }
+    }
+    public String getColor(){
+        return this.color;
+    
+    }
+    public String getSubMarca(){
+        return this.subMarca;
+    }
+    public String getMarca(){
+        return this.marca;
+    
     }
     public int getModelo(){
         return this.modelo;

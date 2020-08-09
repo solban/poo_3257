@@ -18,10 +18,10 @@ public class Sesion_5_agosto {
      */
     public static void main(String[] args) {
         Automovil miCarro = new Automovil();
-        //miCarro.marca="VW";
-        //miCarro.subMarca="Golf";
-        //miCarro.modelo = 1990;
-        //miCarro.color="Gris";
+        miCarro.setMarca("vw");
+        miCarro.setSubMarca("Golf");
+        
+        miCarro.setColor("Gris");
         miCarro.setModelo(1990);
         float x = miCarro.avanzar(1000);
         System.out.println("Avanzados="+ x);

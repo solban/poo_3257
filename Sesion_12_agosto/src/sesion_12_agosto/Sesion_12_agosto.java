@@ -23,6 +23,9 @@ public class Sesion_12_agosto {
         System.out.println(f2);
         Foco f3 = new Foco("Cristal", "led", "Boch", true, 60.0f);
         System.out.println(f3);
+        String nombre ="Javier Espinosa";
+        System.out.println(nombre.charAt(7));
+        
     }
     
 }

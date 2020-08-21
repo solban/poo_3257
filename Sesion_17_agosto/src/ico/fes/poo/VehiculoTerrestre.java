@@ -20,8 +20,10 @@ public class VehiculoTerrestre extends Vehiculo{
         this.tipo = tipo;
         this.kmPorHora = kmPorHora;
     }
+    
 
-    public VehiculoTerrestre(int tipo, String kmPorHora, String decripcion, String fabricante, String material) {
+    public VehiculoTerrestre(int tipo, String kmPorHora, String decripcion,
+            String fabricante, String material) {
         super(decripcion, fabricante, material);
         this.tipo = tipo;
         this.kmPorHora = kmPorHora;
@@ -55,7 +57,7 @@ public class VehiculoTerrestre extends Vehiculo{
                     System.out.println("Carretera");
                     break;
                 case 1:
-                    System.out.println("Vias Ferreas");
+                    System.out.println("Viajando por vias Ferreas");
                     break;
                 case 2:
                     System.out.println("Vias Magneticas");
@@ -67,6 +69,10 @@ public class VehiculoTerrestre extends Vehiculo{
             
         
     }
-    
+    @Override
+    public void usar(){
+        System.out.println("Utilizando el ferrocarril que viaja en vias ferreas"
+                + "de la marca "+this.getFabricante());
+    }
     
 }
